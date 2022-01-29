@@ -7,11 +7,9 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 3px solid orange;
 }
 
 .header {
-  border: 3px solid red;
   height: 768px;
   background: linear-gradient(
     0deg,
@@ -35,7 +33,6 @@
 }
 
 .header__bottom {
-  border: 3px solid blue;
   padding-top: 115px;
   flex-grow: 1;
   background-image: url(img/header_back.png);
@@ -45,7 +42,6 @@
 
 .header__heading1 {
   width: 510px;
-  border: 1px solid #000;
   font-size: 64px;
   line-height: 74px;
   font-weight: 300;
@@ -57,7 +53,6 @@
 .header__text {
   display: block;
   width: 425px;
-  border: 1px solid #000;
   color: #356ead;
 }
 
@@ -77,12 +72,10 @@
 }
 
 .what-we-do {
-  border: 3px solid violet;
   padding-top: 64px;
 }
 
 .what-we-do__list {
-  border: 3px solid yellow;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -93,7 +86,6 @@
 
 .what-we-do__card {
   width: 359px;
-  border: 2px solid deepskyblue;
   margin: 5px;
   padding: 44px 32px;
   box-sizing: border-box;
@@ -172,10 +164,6 @@
   text-transform: uppercase;
 }
 
-.footer {
-  border: 3px solid blue;
-}
-
 .footer__top {
   display: block;
   width: 495px;
@@ -186,10 +174,6 @@
   width: 340px;
   display: block;
   border: 1px solid #000;
-}
-
-.footer__bottom {
-  border: 3px solid maroon;
 }
 
 .footer__info {
