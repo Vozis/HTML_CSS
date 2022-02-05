@@ -5,12 +5,12 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .header {
-  height: 768px;
+  min-height: 768px;
   background: linear-gradient(
     0deg,
     #ebf3fb 8.84%,
@@ -136,18 +136,16 @@
   text-align: right;
   letter-spacing: 0.05em;
   color: #ffffff;
-}
-
-.project__text_left {
   position: absolute;
   top: 64px;
   right: 64px;
 }
 
-.project__text_right {
-  position: absolute;
+.project__text_left {
+  right: auto;
   top: 32px;
-  left: 32px;
+  right: 32px;
+  text-align: left;
 }
 
 .text {
@@ -212,6 +210,11 @@
   text-transform: uppercase;
 }
 
+hr {
+  opacity: 0.4;
+  border: 1px solid #ffffff;
+}
+
 .footer {
   margin-top: 112px;
   background-color: #316099;
@@ -266,4 +269,196 @@
   color: white;
   text-decoration: none;
   padding-left: 20px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header__bottom {
+    background-position: right 280px;
+    background-size: 44%;
+  }
+
+  .what-we-do__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .what-we-do__card {
+    margin-bottom: 32px;
+  }
+
+  .footer {
+    margin-top: 109px;
+  }
+
+  .footer__top {
+    padding-top: 47px;
+    margin-bottom: 64px;
+    padding-left: 92px;
+    padding-right: 92px;
+  }
+
+  .heading3_footer {
+    width: 336px;
+  }
+
+  .text_footer {
+    width: 336px;
+  }
+
+  .button_footer {
+    padding: 5px 30px;
+  }
+
+  .footer__bottom {
+    padding-left: 92px;
+    padding-right: 92px;
+  }
+
+  .footer__info {
+    flex-direction: column;
+  }
+
+  .footer__info li {
+    margin-bottom: 25px;
+  }
+
+  .a_footer {
+    padding-left: 45px;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header {
+    padding-top: 24px;
+    min-height: 376px;
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+
+  .header__bottom {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+  }
+
+  .header__heading1 {
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .header__text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .button_header {
+    margin-top: 36px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .heading3 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .what-we-do {
+    padding-top: 48px;
+  }
+
+  .what-we-do__list {
+    padding-top: 32px;
+  }
+
+  .what-we-do__card {
+    width: 100%;
+  }
+
+  .text_project {
+    width: 100%;
+  }
+
+  .project__text {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
+
+  .project__text_left {
+    left: 16px;
+  }
+
+  .project__parent {
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
+  .project__item_margin {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .footer {
+    margin-top: 64px;
+    padding-bottom: 32px;
+  }
+
+  .footer__top {
+    padding-top: 18px;
+    margin-bottom: 41px;
+    flex-direction: column;
+  }
+
+  .heading3_footer {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .text_footer {
+    text-align: center;
+  }
+
+  .button_footer {
+    padding: 5px 15px;
+    margin-top: 40px;
+  }
+
+  .footer__bottom {
+    margin-top: 32px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer__info {
+    flex-direction: column;
+    margin-bottom: 37px;
+  }
+
+  .footer__info li {
+    margin-bottom: 18px;
+  }
+
+  .a_footer {
+    padding-left: 23px;
+  }
 }
