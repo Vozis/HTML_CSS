@@ -266,7 +266,7 @@
 	box-sizing: border-box;
 	border-radius: 10px;
 	opacity: 0.4;
-	padding-top: 21px 42px;
+	padding: 21px 42px;
 	width: 100%;
 	margin-bottom: 32px;
 }
