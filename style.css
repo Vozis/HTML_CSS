@@ -312,8 +312,11 @@ hr {
 	margin-bottom: 96px;
 }
 
+.footer__text {
+	width: 495px;
+}
+
 .heading3_footer {
-	width: 340px;
 	display: block;
 	text-align: left;
 	margin-bottom: 32px;
@@ -323,7 +326,6 @@ hr {
 	letter-spacing: 0.05em;
 	color: #ffffff;
 	opacity: 0.6;
-	width: 495px;
 }
 
 .button_footer {
@@ -433,11 +435,7 @@ textarea[placeholder] {
 		padding-right: 92px;
 	}
 
-	.heading3_footer {
-		width: 336px;
-	}
-
-	.text_footer {
+	.footer__text {
 		width: 336px;
 	}
 
@@ -662,5 +660,16 @@ textarea[placeholder] {
 	textarea[placeholder] {
 		font-size: 14px;
 		line-height: 30px;
+	}
+
+	.footer__top {
+		padding-top: 47px;
+		margin-bottom: 64px;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.footer__text {
+		width: 100%;
 	}
 }
